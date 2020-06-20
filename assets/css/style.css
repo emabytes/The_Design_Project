@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 100%;
+    background: url(../img/ilustracion_people.png) right top/60% no-repeat, url(../img/ilustracion1.png) right top/60% no-repeat;
+}
+
+.container-logo {
+    display: inline-block;
+    position: fixed;
+    top: 25px;
+    left: 2%;
+}
+
+.container-header-text {
+    display: inline-block;
+    padding: 25px 0 60px 5%;
+}
+
+.logo {
+    height: 35px;
+}
+
+.icon {
+    height: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+.bold-text {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.xl-text {
+    font-size: 3.7em;
+    font-weight: 600;
+}
+
+/*welcome page and gallery*/
+
+section:nth-of-type(1) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section:nth-of-type(1) h1 {
+    font-size: 4.5em;
+    width: 40%;
+    padding-bottom: 15px;
+    padding-left: 8%;
+}
+
+section:nth-of-type(1) p {
+    font-size: 1.4em;
+    font-weight: 300;
+    width: 35%;
+    padding-bottom: 12%;
+    padding-left: 8%;
+}
+
+.scroll-text {
+    color: #ff3571;
+    font-weight: 600;
+    padding-left: 8%;
+    font-size: 0.9em;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#gallery img {
+    width: 100%;
+}
+
+/*section about the idea to start improving*/
+
+#idea, #why, #challenge {
+    padding: 0 12%;
+}
+
+#idea h2:first-child {
+    width: 35%;
+}
+
+#idea img {
+    height: 55px;
+}
+
+#idea p {
+    width: 60%;
+    line-height: 1.7;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+
+#idea h2:nth-child(2) {
+    width: 65%;
+    padding-bottom: 15%;
+}
+
+/*section with 4 icon bullet points about the learning process*/
+
+#learned {
+    width: 80%;
+    line-height: 2;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.container-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-text div {
+    width: 35%;
+    margin-left: -20%;
+    padding-bottom: 7%;
+}
+
+#learned h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#learned p {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+/*challenge steps*/
+
+#challenge div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#challenge div h2 {
+    padding-bottom: 30px;
+}
+
+#challenge div p {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 15%;
+}
+
+/*left right illustrations*/
+
+#challenge {
+    overflow: hidden;
+}
+
+#challenge article {
+    height: 50vh;
+    margin-bottom: 20%;
+}
+
+#challenge article div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#challenge article:nth-of-type(1) {
+    background: url(../img/step01.png) left/contain no-repeat;
+}
+
+#challenge article:nth-of-type(2) {
+    background: url(../img/step02.png) right/contain no-repeat;
+}
+
+#challenge article:nth-of-type(3) {
+    background: url(../img/step03.png) left/contain no-repeat;
+}
+
+#challenge article:nth-of-type(4) {
+    background: url(../img/step04.png) right/contain no-repeat;
+}
+
+#challenge article:nth-of-type(1) div, #challenge article:nth-of-type(3) div {
+    padding-left: 50%;
+}
+
+#challenge article h4 {
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 50px;
+}
+
+#challenge article img {
+    padding-bottom: 20px;
+}
+
+#challenge article h5 {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+#challenge article p {
+    font-size: 1.1em;
+    line-height: 2;
+    font-weight: 300;
+    width: 55%;
+}
+
+/*email, subscribe and footer*/
+
+#subscribe {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#subscribe h2 {
+    padding-bottom: 50px;
+}
+
+#subscribe p {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+#subscribe div {
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: black;
+}
+
+#subscribe div input {
+    padding: 20px 150px;
+    border: 1px solid rgb(248, 248, 248);
+    box-shadow: 0 5px 10px 0 rgba(209, 209, 209, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 50px;
+    background: #ff3571;
+    border-radius: 3px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.btn:hover {
+    background: linear-gradient(to left, #3C30FF, #ff3571);
+}
+
+footer {
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+
+footer img {
+    height: 25px;
+    padding-left: 10px;
+}

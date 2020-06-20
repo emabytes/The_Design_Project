@@ -244,13 +244,13 @@ section:nth-of-type(1) p {
 }
 
 #subscribe h2 {
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 
 #subscribe p {
     font-size: 1.5em;
     font-weight: 300;
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 
 #subscribe div {
@@ -260,10 +260,11 @@ section:nth-of-type(1) p {
 }
 
 #subscribe div input {
-    padding: 20px 150px;
+    padding: 20px 10%;
     border: 1px solid rgb(248, 248, 248);
     box-shadow: 0 5px 10px 0 rgba(209, 209, 209, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.1);
     font-size: 1.3em;
+    outline: none;
 }
 
 .btn {
@@ -286,12 +287,10 @@ section:nth-of-type(1) p {
 footer {
     font-size: 1.1em;
     font-weight: 300;
-    padding-bottom: 20px;
-    padding-left: 10%;
-    padding-top: 100px;
+    padding: 10% 0 2% 10%;
 }
 
 footer img {
     height: 25px;
-    padding-left: 10px;
+    padding-left: 1%;
 }
